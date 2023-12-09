@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <!-- 给不支持js的浏览器一个提示 -->
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!-- vue实例管理/挂载的容器，要动态渲染该容器里的内容 -->
+    <div id="app">
+        从工程化的开发角度讲，我们之后不在里面编写模板，通过APP.vue来提供渲染结构
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
